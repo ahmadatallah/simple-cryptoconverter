@@ -1,0 +1,24 @@
+{
+  "name": "crypto-converter",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "repository": "git@github.com:ahmadatallah/simple-cryptoconverter.git",
+  "author": "ahmadatallah",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.19.6",
+    "@babel/preset-env": "^7.19.4",
+    "@babel/preset-react": "^7.18.6",
+    "parcel-bundler": "^1.12.5",
+    "react-hot-loader": "^4.13.0"
+  }
+}

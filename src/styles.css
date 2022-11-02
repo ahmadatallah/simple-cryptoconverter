@@ -1,0 +1,50 @@
+body {
+    font-family: sans-serif;
+  }
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    padding-top: 10px;
+    align-items: center;
+  }
+  
+  .form-wrapper {
+    display: flex;
+    column-gap: 10px;
+  }
+  
+  .result-wrapper {
+    display: grid;
+    width: 300px;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+  input,
+  select {
+    height: 36px;
+    border-radius: 10px;
+    padding-left: 10px;
+    border: 2px solid;
+  }
+  
+  .select-height {
+    height: 42px;
+  }
+  
+  .input-wrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    width: 200px;
+  }
+  
+  .down {
+    color: red;
+  }
+  
+  .up {
+    color: green;
+  }
+  
